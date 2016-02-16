@@ -1,0 +1,6 @@
+[package]
+name = "file_read_print"
+version = "0.1.0"
+authors = ["Doug Keester <dkeester@gmail.com>"]
+
+[dependencies]
