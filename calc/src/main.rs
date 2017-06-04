@@ -21,7 +21,7 @@ fn main() {
         let exp = exp.trim();
 
         // allow a graceful exit from the program.
-        if exp == "quit" { // '==' can do string comparison
+        if exp == "quit" {
             break;
         } else if exp == "exit" {
             break;
