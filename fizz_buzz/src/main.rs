@@ -1,15 +1,15 @@
 // A quick implementation of the fizz/buzz game
 
 fn main() {
-    for x in 1..100 {
+    for x in 1..101 {
         let mut output = format!("{} ", x);
 
         if x % 3 == 0 {
-            output = output + "fizz ";
+            output += "fizz ";
         }
 
         if x % 5 == 0 {
-            output = output + "buzz ";
+            output += "buzz ";
         }
 
         println!("{}", output);
